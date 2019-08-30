@@ -14,7 +14,7 @@ Connect:
 * IR Diode negative (short leg) to A0 
 * 10k Resistor from IR Diode negative to GND
 
-![Schematics](docs/schematic.png?raw=true "Title")
+![Schematics](docs/schematics.png?raw=true "Title")
 
 ## Code setup
 
@@ -25,6 +25,10 @@ power_topic is the topic where the measurements will be posted.
 
 The unit will do 5 reads and the report the average consumption by calculating the time taken between theese.
 Every read has a 20 ms cooldown so same pulse wont be read twice.
+
+## Compiling
+Use the platform io extension to VSCode to compile and upload.
+If you want to use any other IDE then you need to add the libs  WifiManager, ArduinoJson & PubSubClient manually
 
 ## Usage
 
