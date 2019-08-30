@@ -41,3 +41,8 @@ The unit will first boot up in "AP-mode"
 Connect onto the device and configure it to connect to your local wifi network.
 The device will restart, and if everything is setup correct you should begin receiving measurement messages on your MQTT server.
 
+
+## 3D model housing
+The 3d model for a Fortum Landis+Gyr can be found at
+https://www.thingiverse.com/thing:3837568
+
